@@ -89,3 +89,4 @@ C:\Users\forem\source\repos\RestaurantRater\RestaurantRater\obj\Debug\Restaurant
 C:\Users\forem\source\repos\RestaurantRater\RestaurantRater\obj\Debug\RestaurantRater.pdb
 C:\Users\forem\source\repos\RestaurantRater\RestaurantRater\obj\Debug\RestaurantRater.Migrations.InitialMigration.resources
 C:\Users\forem\source\repos\RestaurantRater\RestaurantRater\obj\Debug\RestaurantRater.csproj.GenerateResource.cache
+C:\Users\forem\source\repos\RestaurantRater\RestaurantRater\obj\Debug\RestaurantRater.Migrations.AddedRatings.resources

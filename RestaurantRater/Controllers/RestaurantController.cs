@@ -75,7 +75,6 @@ namespace RestaurantRater.Controllers
 
             restaurant.Name = updatedRestaurant.Name;
             restaurant.Address = updatedRestaurant.Address;
-            restaurant.Rating = updatedRestaurant.Rating;
 
             return Ok("The restaurant was updated!");
         }

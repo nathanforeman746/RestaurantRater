@@ -163,6 +163,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RatingController.cs" />
     <Compile Include="Controllers\RestaurantController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -171,6 +172,10 @@
     <Compile Include="Migrations\202112240334255_InitialMigration.cs" />
     <Compile Include="Migrations\202112240334255_InitialMigration.designer.cs">
       <DependentUpon>202112240334255_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112240441111_AddedRatings.cs" />
+    <Compile Include="Migrations\202112240441111_AddedRatings.designer.cs">
+      <DependentUpon>202112240441111_AddedRatings.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Rating.cs" />
@@ -231,6 +236,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Rating\" />
     <Folder Include="Views\Restaurant\" />
   </ItemGroup>
   <ItemGroup>
@@ -265,6 +271,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202112240334255_InitialMigration.resx">
       <DependentUpon>202112240334255_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112240441111_AddedRatings.resx">
+      <DependentUpon>202112240441111_AddedRatings.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

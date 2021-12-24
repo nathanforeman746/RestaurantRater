@@ -29,8 +29,16 @@ namespace RestaurantRater.Models
                     totalAverageRating += rating.AverageRating;
                 }
 
-                return Ratings.Count > 0 ? totalAverageRating / Ratings.Count;
+                return Ratings.Count > 0 ? Math.Round(totalAverageRating / Ratings.Count, 2) : 0;
 
+            }
+        }
+
+        public bool IsRecommended
+        {
+            get
+            {
+                return Rating > 8;
             }
         }
     }
